@@ -13,9 +13,13 @@
       crossorigin="anonymous"
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     ></script>
+
     <script>
+      var domen = "https://rostislavww.github.io";
       $(function () {
-        window.alert("Документ доступен для выполнения скриптов");
+        var url = domen + "/zagolovok.html";
+
+        $("body").load(url);
       });
     </script>
   </body>
